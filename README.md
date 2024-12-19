@@ -164,7 +164,7 @@ More info can be found in the [`.env.example`](https://github.com/ghoshRitesh12/
 
 Deploy your own instance of Aniwatch API on Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ghoshRitesh12/aniwatch-api)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/NullRizz/mtf-api)
 
 > [!NOTE]
 >
@@ -174,7 +174,7 @@ Deploy your own instance of Aniwatch API on Vercel.
 
 Deploy your own instance of Aniwatch API on Render.
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/ghoshRitesh12/aniwatch-api)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/NullRizz/mtf-api)
 
 ## <span id="documentation">📚 Documentation</span>
 
