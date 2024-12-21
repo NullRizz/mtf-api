@@ -1,10 +1,15 @@
 import { config } from "dotenv";
+import { cors } from "hono/cors";
 
 config();
 
-// Update allowedOrigins to match your port 5500 (assuming you want to allow localhost:5500)
-const allowedOrigins = process.env.ANIWATCH_API_CORS_ALLOWED_ORIGINS
-  ? process.env.ANIWATCH_API_CORS_ALLOWED_ORIGINS.split(",")
-  : ["http://localhost:5500", "*"]; // Updated port
+const allowedOrigins = ["http://127.0.0.1:5500", "https://kiraanime.uk"];
 
-// Removed CORS handling (as requested)
+const corsConfig = cors({
+  allowMethods: ["GET"],
+  maxAge: 600,
+  credentials: true,
+  origin: allowedOrigins,  // Only allow these specific origins
+});
+
+export default corsConfig;
